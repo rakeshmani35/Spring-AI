@@ -1,0 +1,31 @@
+spring:
+  ai:
+    ollama:
+      # Default for running Spring Boot on your HOST machine:
+      # Ollama is reachable via the published port on localhost.
+      base-url: http://localhost:11434/
+      chat:
+        model: llama3.2:1b
+
+#    openai:
+#      api-key: ${OPENAI_API_KEY}
+
+#  ai:
+#    google:
+#      genai:
+#        api-key: ${GEMINI_API_KEY}
+
+
+# ai:
+#   anthropic:
+#     api-key:
+
+logging:
+  level:
+    org.springframework.ai.ollama: DEBUG
+    org.springframework.ai.chat: DEBUG
+    org.springframework.web.client: INFO
+
+server:
+  port: 9292
+
