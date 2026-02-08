@@ -1,0 +1,23 @@
+spring:
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+
+#     chat:
+#       options:
+#         model: gpt-4o-mini
+#         temperature: 0.3
+#         max-tokens: 10
+
+#  ai:
+#    google:
+#      genai:
+#        api-key: ${GEMINI_API_KEY}
+
+
+# ai:
+#   anthropic:
+#     api-key:
+
+server:
+  port: 9292

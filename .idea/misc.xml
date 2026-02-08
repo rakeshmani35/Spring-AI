@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/Spring-AI-LLM-OpenAI/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-AI-LLM-Ollama-Docker/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-AI-LLM-OpenAI-MessageRole/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringAI-OpenAI-Prompt-Template/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-AI-LLM-ChatOption/pom.xml" />
       </list>
     </option>
   </component>
