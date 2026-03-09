@@ -9,6 +9,10 @@
         <option value="$PROJECT_DIR$/Spring-AI-LLM-OpenAI-MessageRole/pom.xml" />
         <option value="$PROJECT_DIR$/SpringAI-OpenAI-Prompt-Template/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-AI-LLM-ChatOption/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-AI-Chat-Memory/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-AI-Chat-Memory-Mysql/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-AI-RAG-pdf/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-AI-RAG/pom.xml" />
       </list>
     </option>
   </component>

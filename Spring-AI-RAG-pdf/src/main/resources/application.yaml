@@ -1,0 +1,45 @@
+spring:
+  application:
+    name: Spring-AI-RAG-pdf
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/aichatmemory
+    username: root
+    password: root
+
+  ai:
+   openai:
+     api-key: ${OPENAI_API_KEY}
+   chat:
+     memory:
+       repository:
+         jdbc:
+           initialize-schema: ALWAYS
+
+   vectorstore:
+     qdrant:
+       initialize-schema: true
+       host: localhost
+       port: 6334
+       collection-name: rag-kb # collection name for RAG knowledge base
+
+  docker:
+    compose:
+      stop:
+        command: DOWN
+      file:
+        - Spring-AI-RAG-pdf/compose.yml
+
+
+logging:
+  level:
+    org:
+      springframework:
+        ai:
+          chat:
+            client:
+              advisor: DEBUG
+
+server:
+  port: 9292

@@ -1,0 +1,4 @@
+com\javatechie\config\ChatClientConfig.class
+com\javatechie\controller\OpenAIChatController.class
+com\javatechie\service\OpenAIChatService.class
+com\javatechie\SpringOpenaiDemoApplication.class
