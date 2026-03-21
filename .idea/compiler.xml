@@ -9,6 +9,7 @@
         <module name="Spring-AI-LLM-OpenAI" />
         <module name="Spring-AI-LLM-OpenAI-MessageRole" />
         <module name="Spring-AI-LLM-Ollama" />
+        <module name="SpringAI-Tools-Calling" />
         <module name="Spring-AI-Chat-Memory" />
         <module name="Spring-AI-RAG-pdf" />
         <module name="Spring-AI-RAG" />
@@ -29,6 +30,7 @@
       <module name="Spring-AI-RAG" options="-parameters" />
       <module name="Spring-AI-RAG-pdf" options="-parameters" />
       <module name="SpringAI-OpenAI-Prompt-Template" options="-parameters" />
+      <module name="SpringAI-Tools-Calling" options="-parameters" />
     </option>
   </component>
 </project>

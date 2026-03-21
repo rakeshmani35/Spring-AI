@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: SpringAI-Tools-Calling
+
+  ai:
+   openai:
+     api-key: ${OPENAI_API_KEY}
+
+
+
+logging:
+  level:
+    org:
+      springframework:
+        ai:
+          chat:
+            client:
+              advisor: DEBUG
+
+server:
+  port: 9292
